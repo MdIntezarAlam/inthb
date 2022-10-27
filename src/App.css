@@ -1,0 +1,67 @@
+.dashboard__bg:before {
+  content: "";
+  position: absolute;
+  background-image: url(./assets/images/dashboard-bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  opacity: 0.4;
+  z-index: 0;
+}
+.dashboard__bg {
+  background-color: rgba(0, 0, 0, 0.9);
+  min-height: 100vh;
+  height: 100%;
+}
+
+.slide-top {
+  -webkit-animation: slide-top 1s ease-in-out infinite;
+  animation: slide-top 5s ease-in-out infinite;
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100vh);
+    transform: translateY(100vh);
+  }
+  100% {
+    -webkit-transform: translateY(-200vh);
+    transform: translateY(-200vh);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100vh);
+    transform: translateY(100vh);
+  }
+  100% {
+    -webkit-transform: translateY(-200vh);
+    transform: translateY(-200vh);
+  }
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 2s ease-in-out infinite alternate-reverse both;
+  animation: scale-up-center 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+}

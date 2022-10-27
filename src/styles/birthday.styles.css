@@ -1,0 +1,64 @@
+.main__content {
+    display: flex;
+}
+.main__content .left,
+.main__content .right {
+    flex-grow: 1;
+}
+.main__content .right .greetings__card {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.main__content .middle {
+    padding-top: 6%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.bday__content {
+    z-index: 997;
+}
+
+.animated__container {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1600;
+    height: 100vh;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.animated__container img {
+    background-size: cover;
+}
+@media screen and (max-width: 1150px) {
+    .main__content .middle {
+        padding-top: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main__content .middle {
+        padding: 4rem 2rem;
+    }
+    .main__content {
+        flex-direction: column;
+    }
+    .main__content .left {
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .animated__container img {
+        margin-left: -9rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+}
+
+@media screen and (max-width: 490px) {
+}

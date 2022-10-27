@@ -1,0 +1,40 @@
+.greetings__card {
+    position: relative;
+    padding: 10px;
+}
+
+.greetings__card .greetings__content {
+    position: absolute;
+}
+.greetings__card .greetings__content .message {
+    font-size: 1.4rem;
+    color: rgb(178 167 237);
+    /* color: rgb(0, 0, 0); */
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    font-family: "DemielaFreeMedium";
+    letter-spacing: 0.08em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 900px) {
+    .greetings__card .greetings__card-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 550px) {
+}
+
+@media screen and (max-width: 490px) {
+}
