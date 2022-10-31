@@ -1,8 +1,8 @@
 export const data = {
   person: {
-    name: "Md Intezar Alam",
-    dob: "17 feb 2002",
-    age: "21",
+    name: "Soumya Sri",
+    dob: "01 Nov 2000",
+    age: "22",
     image: "paridhi.jpg",
   },
   leftSideCards: [
