@@ -60,7 +60,9 @@ const Person = () => {
   return (
     <PersonCard>
       <Image image={image}></Image>
-      <Details>{name}</Details>
+      <Details>{name}
+      <br/>HappyBirthday
+      </Details>
       <Dob>
         {dob} ({age} Yrs)
       </Dob>
