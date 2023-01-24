@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "DemielaFreeMedium";
   src: url("./assets/fonts/DemielaFreeMedium.otf");
   font-weight: 900;
@@ -21,11 +21,13 @@
   src: url("./assets/fonts/Highschool.ttf");
   font-weight: 800;
   font-display: swap;
-}
+} */
 * {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-weight: 400;
+  font-style: italic;
 }
 
 body {
