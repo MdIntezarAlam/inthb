@@ -3,7 +3,7 @@ export const data = {
     name: "Md Intezar Alam",
     dob: "17 Feb 2002",
     age: "21",
-    image: "paridhi.jpg",
+    image: "paridhi.jpeg",
   },
   leftSideCards: [
     {

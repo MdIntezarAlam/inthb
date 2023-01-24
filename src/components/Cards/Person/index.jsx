@@ -20,6 +20,7 @@ const Image = Styled.div`
     justify-content: flex-end;
     align-items: center;
     border-radius: 50%;
+    margin:auto;
     border: 7px double #d6ba4f;
     box-shadow: -2px 2px 8px 7px rgba(145, 108, 34, 0.7);
     -webkit-box-shadow: -2px 2px 8px 7px rgba(145, 108, 34, 0.7);
@@ -61,7 +62,7 @@ const Person = () => {
     <PersonCard>
       <Image image={image}></Image>
       <Details>{name}
-      <br/>HappyBirthday
+        <br />HappyBirthday
       </Details>
       <Dob>
         {dob} ({age} Yrs)
