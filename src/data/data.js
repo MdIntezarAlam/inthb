@@ -1,7 +1,7 @@
 export const data = {
   person: {
-    name: "Anusha",
-    dob: "03 Nov 2001",
+    name: "Md Intezar Alam",
+    dob: "17 Feb 2002",
     age: "21",
     image: "paridhi.jpg",
   },
