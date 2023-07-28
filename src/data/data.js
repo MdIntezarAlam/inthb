@@ -1,9 +1,9 @@
 export const data = {
   person: {
-    name: "Md Intezar Alam",
-    dob: "17 Feb 2002",
-    age: "21",
-    image: "paridhi.jpeg",
+    name: "Nitesh Singh Rajput",
+    dob: "28 July 1998",
+    age: "25",
+    image: "nitesh1.jpg",
   },
   leftSideCards: [
     {
